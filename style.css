@@ -3,6 +3,8 @@
 :root {
   --blue-color: rgb(93, 161, 211);
   --text-color: #f5f5f5;
+  --background-color: #1f1f1f;
+
 }
 
 * {
@@ -16,7 +18,7 @@ html,
 body {
   overflow: hidden;
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
-  background-color: rgb(31, 31, 31);
+  background-color: var(--background-color);
 }
 
 /*** Overall Site Container Styles ***/
@@ -151,10 +153,11 @@ nav button:hover {
 .logos {
   overflow: hidden;
   padding: 60px 0;
-  background-color: #1f1f1f;
+  background-color: var(--background-color);
   white-space: nowrap;
   position: relative;
   margin-bottom: 70px;
+  width: 100vw;
 }
 
 .logos:before,
@@ -169,12 +172,12 @@ nav button:hover {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to right, #1f1f1f, rgba(31, 31, 31, 0.1));
+  background: linear-gradient(to right, var(--background-color), rgba(31, 31, 31, 0.1));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to left, #1f1f1f, rgba(31, 31, 31, 0.1));
+  background: linear-gradient(to left, var(--background-color), rgba(31, 31, 31, 0.1));
 }
 
 .logos-slide {
@@ -263,10 +266,6 @@ form {
 
   .about-box {
     gap: 0;
-  }
-
-  .logos {
-    width: 100vw;
   }
 
   .logos:before,
