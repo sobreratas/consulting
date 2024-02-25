@@ -19,8 +19,6 @@ body {
   background-color: rgb(31, 31, 31);
 }
 
-
-
 /*** Overall Site Container Styles ***/
 .site-container {
   background-image: url(images/background.jpg);
@@ -83,7 +81,7 @@ nav button:hover {
 
 /*** Active State ***/
 .active {
-color: var(--blue-color);
+  color: var(--blue-color);
 }
 
 /*** Overall Box Section Styles ***/
@@ -136,8 +134,8 @@ color: var(--blue-color);
 }
 
 .here:hover {
-cursor: pointer;
-text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 /*** LOGO SCROLL ***/
 @keyframes slide {
@@ -258,8 +256,22 @@ form {
   }
 
   /*** ABOUT MOBILE STYLES ***/
+  html,
+  body {
+    overflow: hidden;
+  }
+
   .about-box {
     gap: 0;
+  }
+
+  .logos {
+    width: 100vw;
+  }
+
+  .logos:before,
+  .logos:after {
+    width: 50px;
   }
 
   .logos-slide img {
