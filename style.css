@@ -118,7 +118,7 @@ nav button:hover {
   align-items: center;
   gap: 30px;
   overflow: hidden;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 
 .about-text-container {
@@ -262,6 +262,10 @@ form {
   html,
   body {
     overflow: hidden;
+  }
+
+  .about-box h1 {
+    font-size: 1.5rem;
   }
 
   .about-box {
