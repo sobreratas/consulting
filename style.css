@@ -203,6 +203,10 @@ nav button:hover {
   margin: 0 40px;
 }
 
+.logos-mobile-container {
+  display: none;
+}
+
 /*** CONTACT STYLES ***/
 .contact-box {
   display: flex;
@@ -284,17 +288,23 @@ form {
     gap: 0;
   }
 
-  .logos:before,
-  .logos:after {
-    width: 50px;
+  .logos {
+    display: none;
   }
 
-  .logos-slide img {
-    width: 50px;
-    height: 50px;
-    margin: 0 40px;
+  .logos-mobile-container {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 90%;
   }
 
+  .logos-mobile-container img {
+    width: 50px;
+  }
   /*** CONTACT MOBILE STYLES ***/
   .contact-box form {
     width: 100%;
