@@ -282,6 +282,7 @@ form {
 @media (max-width: 600px) {
   html,
   body {
+    height: 100vh;
     overflow: hidden;
   }
 
@@ -350,6 +351,7 @@ form {
   ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
+  }
 
   /*** CONTACT MOBILE STYLES ***/
   .contact-box form {
