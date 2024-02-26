@@ -22,10 +22,10 @@ body {
 
 /*** Overall Site Container Styles ***/
 .site-container {
-  background-image: url(images/background.jpg);
+  /* background-image: url(images/background.jpg);
   background-position: top;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -253,9 +253,9 @@ form {
 
   /*** HOME MOBILE STYLES ***/
 
-  .site-container {
+  /* .site-container {
     background-image: url(images/background-mobile.png);
-  }
+  } */
 
   .home-text {
     position: absolute;
@@ -275,21 +275,13 @@ form {
   }
 
   /*** ABOUT MOBILE STYLES ***/
-  html,
-  body {
-    /* overflow: hidden; */
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
   .about-box h1 {
     font-size: 1.5rem;
   }
 
   .about-box {
     gap: 0;
-    /* overflow: scroll; */
-    border: 1px red solid;
+    overflow: scroll;
   }
 
   .logos {
@@ -297,7 +289,6 @@ form {
   }
 
   .logos-mobile-container {
-    border: 1px red solid;
     margin-top: 15px;
     margin-bottom: 100px;
     display: flex;
