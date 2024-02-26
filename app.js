@@ -31,6 +31,8 @@ aboutBtn.addEventListener("click", (e) => {
 
 here.addEventListener("click", () => {
   showContactBox();
+  manageNavBtnActiveStateWhenHereIsClicked();
+
 });
 
 function manageNavBtnActiveState(e){
@@ -38,6 +40,13 @@ function manageNavBtnActiveState(e){
     navBtn.classList.remove("active");
   })
   e.target.classList.add("active");
+}
+
+function manageNavBtnActiveStateWhenHereIsClicked(){
+  navBtns.forEach(navBtn => {
+    navBtn.classList.remove("active");
+  })
+  contactBtn.classList.add("active");
 }
 
 function showHomeBox() {
