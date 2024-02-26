@@ -286,6 +286,8 @@ form {
 
   .about-box {
     gap: 0;
+    overflow: scroll;
+    border: 1px red solid;
   }
 
   .logos {
@@ -293,8 +295,9 @@ form {
   }
 
   .logos-mobile-container {
+    border: 1px red solid;
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
