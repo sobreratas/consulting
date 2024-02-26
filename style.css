@@ -232,8 +232,13 @@ nav button:hover {
 .clients-logo-box {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
+}
+
+.client-logo {
+  width: 200px;
 }
 
 /*** CONTACT STYLES ***/
@@ -327,6 +332,17 @@ form {
   .logos-mobile-container img {
     width: 50px;
   }
+
+  /*** PROJECTS MOBILE STYLES ***/
+  .clients-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid red;
+  }
+
   /*** CONTACT MOBILE STYLES ***/
   .contact-box form {
     width: 100%;
