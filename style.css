@@ -277,7 +277,9 @@ form {
   /*** ABOUT MOBILE STYLES ***/
   html,
   body {
-    overflow: hidden;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   .about-box h1 {
@@ -286,7 +288,7 @@ form {
 
   .about-box {
     gap: 0;
-    overflow: scroll;
+    /* overflow: scroll; */
     border: 1px red solid;
   }
 
