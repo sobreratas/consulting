@@ -20,6 +20,13 @@ body {
   background-color: var(--background-color);
 }
 
+input, textarea {
+  color: #000;
+  padding: 6px;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
 /*** Overall Site Container Styles ***/
 .site-container {
   /* background-image: url(images/background.jpg);
@@ -35,9 +42,9 @@ body {
 /*** Home Section Styles ***/
 .home-text {
   margin-top: 15px;
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home-text img {
@@ -255,14 +262,9 @@ form {
   }
 
   /*** HOME MOBILE STYLES ***/
-
-  /* .site-container {
-    background-image: url(images/background-mobile.png);
-  } */
-
-  .home-text img{
+  .home-text img {
     margin-top: 30px;
-width: 100%;
+    width: 100%;
   }
 
   .home-text h1 {
