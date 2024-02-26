@@ -29,10 +29,6 @@ input, textarea {
 
 /*** Overall Site Container Styles ***/
 .site-container {
-  /* background-image: url(images/background.jpg);
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat; */
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -48,7 +44,7 @@ input, textarea {
 }
 
 .home-text img {
-  width: 30%;
+  width: 40%;
 }
 
 .home-text h1 {
@@ -130,9 +126,6 @@ nav button:hover {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  /* overflow-x: hidden;
-  overflow-y: scroll; */
-  /* overflow: scroll; */
 }
 
 .about-text-container {
@@ -153,6 +146,7 @@ nav button:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
 /*** LOGO SCROLL ***/
 @keyframes slide {
   from {
@@ -215,6 +209,31 @@ nav button:hover {
 
 .logos-mobile-container {
   display: none;
+}
+
+/*** PROJECT STYLES ***/
+.projects-box {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.clients-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border: 1px solid red;
+}
+
+.clients-logo-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /*** CONTACT STYLES ***/
